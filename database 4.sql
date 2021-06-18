@@ -1,0 +1,12 @@
+-- SELECT count(*) FROM users;
+-- SELECT MAX(followers) FROM users;
+-- SELECT * FROM users WHERE followers = (SELECT MAX(followers) FROM users);
+-- SELECT AVG(followers) FROM users;
+-- SELECT * FROM users ORDER BY login;
+-- SELECT * FROM users ORDER BY country;
+-- SELECT * FROM users ORDER BY email;
+-- SELECT user_id, login FROM users;
+-- SELECT * FROM users WHERE login LIKE '%as%' OR login LIKE '%cg%' OR login LIKE '%si%' OR login LIKE '%am%' OR login LIKE '%qwe%' OR login LIKE '%er%' OR login LIKE '%ka%' OR login LIKE '%an%';
+-- SELECT * FROM users WHERE login LIKE '%lol%' OR login LIKE '%kan%' OR login LIKE '%ck%' OR login LIKE '%ie%' OR login LIKE '%ig%';
+-- SELECT * FROM users WHERE login LIKE '%a%' OR login LIKE '%b%' OR login LIKE '%c%' OR login LIKE '%d%' OR login LIKE '%M%' OR login LIKE '%D%' OR login LIKE '%A%';
+-- SELECT login FROM users Wlowers = (SELECT MAX(followers)FROM users WHERE profession = 'Senior Programmer' AND country = 'Israel');

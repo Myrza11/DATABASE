@@ -1,0 +1,18 @@
+-- CREATE TABLE developer(id SERIAL PRIMARY KEY, name VARCHAR, skill INT, programming_lang VARCHAR DEFAULT 'HTML');
+-- ALTER TABLE developer RENAME
+-- COLUMN skill TO age
+-- INSERT INTO developer(name, age, programming_lang)
+-- VALUES ('Bakyt', 23, 'Python');
+-- INSERT INTO developer(name, age, programming_lang)
+-- VALUES('Beka', 15, 'Java');
+-- INSERT INTO developer(name, age, programming_lang)
+-- VALUES('Gulya', 30, 'JavaScript');
+-- INSERT INTO developer(name, age, programming_lang)
+-- VALUES('Beka', 39, 'Assembler');
+-- ALTER TABLE developer ADD COLUMN cash VARCHAR;
+-- INSERT INTO developer(name, age, programming_lang, cash)
+-- VALUES('Katya', 16, 'Python', 3000);
+-- SELECT * FROM developer;
+-- INSERT INTO developer(name, age, programming_lang)
+-- VALUES('Tim', 17, 'Java');
+--                                                                                                              
